@@ -1,0 +1,66 @@
+@import url(../../../index.css);
+
+.content_infoProduct {
+  width: 100%;
+  display: flex;
+  height: fit-content;
+  gap: 1.5rem;
+
+  .bx-image-product {
+    width: 140px;
+    height: 100px;
+    overflow: hidden;
+    background-color: var(--colorWhite);
+    border-radius: 9px;
+    border: 2px solid rgb(225, 225, 225);
+    padding: 0.5rem;
+
+    .product {
+      width: 100%;
+      height: 100%;
+      object-fit: contain;
+    }
+  }
+
+  .bx-infoProduct {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .content-headerInfo {
+      display: flex;
+      justify-content: space-between;
+      color: var(--color900);
+      font-weight: 700;
+      font-size: var(--size-preset-2);
+
+      .bx-name__and__color-product {
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        font-weight: 500;
+
+        .color {
+          color: var(--color700);
+        }
+      }
+    }
+
+    .bx-quantity__and__deleteProduct {
+      display: flex;
+      justify-content: space-between;
+      color: var(--color700);
+
+      .deleteProduct {
+        cursor: pointer;
+        transition: 0.3s ease-in-out;
+
+        &:hover {
+          font-weight: 700;
+          color: var(--color900);
+        }
+      }
+    }
+  }
+}

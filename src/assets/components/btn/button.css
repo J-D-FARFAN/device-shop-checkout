@@ -1,0 +1,24 @@
+@import url(../../../index.css);
+
+.bx-btn {
+  width: 100%;
+  height: 100%;
+
+  .btn-applyCoupon {
+    width: 100%;
+    height: 100%;
+    background-color: var(--color900);
+    color: var(--colorWhite);
+    font-size: var(--font-size-preset-2);
+    font-weight: 500;
+    border-radius: 8px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+
+    &:hover {
+      filter: brightness(0.7);
+    }
+  }
+}
