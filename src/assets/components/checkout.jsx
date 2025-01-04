@@ -16,19 +16,19 @@ export function Checkout() {
           <article className="bx-products">
             <section className="section-products">
               <Products
-                ImageProduct={"public/resources/Gold@2x.png"}
+                ImageProduct={"/resources/Gold@2x.png"}
                 NameProduct={"Iphone 12 Pro"}
                 ColorProduct={"Gold"}
                 PriceProduct={"999.00"}
               />
               <Products
-                ImageProduct={"public/resources/Apple-watchx2.png"}
+                ImageProduct={"/resources/Apple-watchx2.png"}
                 NameProduct={"Apple Watch"}
                 ColorProduct={"Blue"}
                 PriceProduct={"399.00"}
               />
               <Products
-                ImageProduct={"public/resources/iMac@2x.png"}
+                ImageProduct={"/resources/iMac@2x.png"}
                 NameProduct={"iMac"}
                 ColorProduct={"Green"}
                 PriceProduct={"1999.00"}

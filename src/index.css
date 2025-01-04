@@ -37,7 +37,7 @@
       height: 250px;
       top: 0;
       left: 0;
-      background: url(public/resources/background-image.png) no-repeat center;
+      background: url(/resources/background-image.png) no-repeat center;
       background-size: cover;
       z-index: -1;
     }
